@@ -26,6 +26,6 @@ function weatherData(string $cityName): array
     ];
 }
 
-$server = new SoapServer(null, array('uri' => 'test'));
+$server = new SoapServer(null, ['uri' => 'test']);
 $server->addFunction('weatherData');
 $server->handle();
