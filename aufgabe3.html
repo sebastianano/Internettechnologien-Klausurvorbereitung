@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>Aufgabe 3</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+    function turnOn(target) {
+        target.src = "aufgabe3_lightbulb_on.png";
+    }
+
+    function turnOff(target) {
+        target.src = "aufgabe3_lightbulb_off.png";
+    }
+</script>
+<img src="aufgabe3_lightbulb_off.png" alt="Lightbulb" onmousedown="turnOn(this)" onmouseup="turnOff(this)"/>
+<p>Click bulb!</p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+services:
+  klausur:
+    image: klausur
+    container_name: "klausur"
+    volumes:
+      - ".:/var/www/html"
+    ports:
+      - "80:80"

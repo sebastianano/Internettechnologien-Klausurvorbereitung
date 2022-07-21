@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>Aufgabe 6</title>
+    <meta charset="utf-8">
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: a1;
+        }
+
+        .item4 {
+            grid-area: a2;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header'
+                'a1 a1 a2 a2 menu'
+                'footer footer footer footer menu';
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="item1">Header</div>
+    <div class="item2">Menu</div>
+    <div class="item3">Article 1</div>
+    <div class="item4">Article 2</div>
+    <div class="item5">Footer</div>
+</div>
+</body>
+</html>

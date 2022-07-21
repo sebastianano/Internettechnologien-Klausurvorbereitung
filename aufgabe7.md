@@ -1,0 +1,3 @@
+- opt-in: Der Nutzer muss aktiv bspw. Werbung zustimmen.
+- opt-out: Der Nutzer kann aktiv bspw. einer Werbung widersprechen.
+- double-opt-in: Der Nutzer stimmt bspw. einer Werbung zu und muss dieser in einem zweiten Schritt nochmal zustimmen.

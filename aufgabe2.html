@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>Aufgabe 2</title>
+    <meta charset="utf-8">
+    <style>
+        a {
+            color: red;
+        }
+
+        #abschnitt {
+            color: green;
+        }
+
+        #navi {
+            color: blue;
+        }
+
+        .navis {
+            color: yellow;
+        }
+    </style>
+</head>
+<body style="color: pink">
+<p id="abschnitt">Klicke auf den <a id="navi" class="navis" href="#">Verweis</a></p>
+</body>
+</html>
+
+<!--
+Spezifizität:
+-------------
+A style=""
+B #id
+C .class
+D <tag>
+
+Reihenfolge von Regeln und Deklarationen aussetzen:
+---------------------------------------------------
+<attr>: !important
+-->
